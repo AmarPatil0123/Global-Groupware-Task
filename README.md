@@ -1,5 +1,7 @@
 # User Management System
 
+WEBSITE_URL = https://global-groupware-task.onrender.com
+
 ## 🚀 Project Overview
 This is a **User Management System** built using **React, React Bootstrap, and React Router**. It allows users to:
 - View a list of users.
@@ -10,7 +12,6 @@ This is a **User Management System** built using **React, React Bootstrap, and R
 
 ## 🛠️ Tech Stack
 - **Frontend:** React, Bootstrap, React Toastify, React Router
-- **Backend API:** Connected via REST API
 - **Deployment:** Render
 
 ## 📂 Project Structure
@@ -29,7 +30,7 @@ project-root/
 ## 🔧 Installation & Setup
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/your-repo.git
+git clone https://github.com/your-username/your-repo.git](https://github.com/AmarPatil0123/Global-Groupware-Task.git
 cd your-repo
 ```
 
@@ -41,7 +42,7 @@ npm install
 ### 3️⃣ Set Up Environment Variables
 Create a **.env** file in the project root and add:
 ```
-VITE_BASE_URL=https://your-api-url.com/
+VITE_BASE_URL=https://reqres.in/
 ```
 
 ### 4️⃣ Start the Development Server
@@ -66,20 +67,5 @@ git push origin main
 ✅ Secure Login with API Authentication  
 ✅ Toast Notifications for User Feedback  
 
-## 🛠 Troubleshooting
-**If toast notifications don't work after deployment:**
-1. Check **Render Logs** for API errors.
-2. Ensure `react-toastify` is installed:
-   ```sh
-   npm list react-toastify
-   ```
-3. Verify that `<ToastContainer />` is present in `App.js`.
-4. Ensure `.env` variables are correctly set.
-5. Check browser console (`F12`) for errors.
 
-## 📜 License
-This project is licensed under the **MIT License**.
-
----
-Developed with ❤️ using React & Bootstrap.
 
