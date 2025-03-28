@@ -1,12 +1,85 @@
-# React + Vite
+# User Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Project Overview
+This is a **User Management System** built using **React, React Bootstrap, and React Router**. It allows users to:
+- View a list of users.
+- Search for users.
+- Edit and delete users.
+- Authenticate via login.
+- Perform API calls to fetch and manage user data.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- **Frontend:** React, Bootstrap, React Toastify, React Router
+- **Backend API:** Connected via REST API
+- **Deployment:** Render
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📂 Project Structure
+```
+project-root/
+│-- src/
+│   ├── components/  # Reusable UI components
+│   ├── pages/       # Page components (Login, Home)
+│   ├── App.js       # Main app component
+│   ├── index.js     # Entry point
+│-- .env             # Environment variables
+│-- README.md        # Documentation
+│-- package.json     # Dependencies
+```
 
-## Expanding the ESLint configuration
+## 🔧 Installation & Setup
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/your-username/your-repo.git
+cd your-repo
+```
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 2️⃣ Install Dependencies
+```sh
+npm install
+```
+
+### 3️⃣ Set Up Environment Variables
+Create a **.env** file in the project root and add:
+```
+VITE_BASE_URL=https://your-api-url.com/
+```
+
+### 4️⃣ Start the Development Server
+```sh
+npm run dev
+```
+Then open **http://localhost:5173/** in your browser.
+
+## 🌐 Deployment
+The project is deployed on **Render**.
+To redeploy after changes:
+```sh
+git add .
+git commit -m "Updated features"
+git push origin main
+```
+
+## 🎯 Features
+✅ User List with Pagination  
+✅ Search Functionality  
+✅ User Editing & Deleting  
+✅ Secure Login with API Authentication  
+✅ Toast Notifications for User Feedback  
+
+## 🛠 Troubleshooting
+**If toast notifications don't work after deployment:**
+1. Check **Render Logs** for API errors.
+2. Ensure `react-toastify` is installed:
+   ```sh
+   npm list react-toastify
+   ```
+3. Verify that `<ToastContainer />` is present in `App.js`.
+4. Ensure `.env` variables are correctly set.
+5. Check browser console (`F12`) for errors.
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+Developed with ❤️ using React & Bootstrap.
+
