@@ -3,7 +3,7 @@
 WEBSITE_URL = https://global-groupware-task.onrender.com
 
 ## 🚀 Project Overview
-This is a **User Management System** built using **React, React Bootstrap, and React Router**. It allows users to:
+This is a **User Management System** built using **React, Material UI, React Bootstrap, and React Router**. It allows users to:
 - View a list of users.
 - Search for users.
 - Edit and delete users.
